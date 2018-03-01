@@ -19,9 +19,9 @@ class Contacts(object):
         all_contacts = [contact for contact in self.contacts_lists]
         return all_contacts
 
-    def delete_contact(self, name):
+    def delete_contact(self, contact):
         pass
 
-    def update_contact(self):
+    def update_contact(self, contact):
         pass
         
