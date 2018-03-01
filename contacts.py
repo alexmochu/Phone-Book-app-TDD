@@ -14,3 +14,14 @@ class Contacts(object):
         # Add the Contacts to the contacts lists
         self.contacts_lists.append(contact_dict)
         return "Successfully added contacts"
+
+    def view_all(self):
+        all_contacts = [contact for contact in self.contacts_lists]
+        return all_contacts
+
+    def delete_contact(self, name):
+        pass
+
+    def update_contact(self):
+        pass
+        
